@@ -36,12 +36,14 @@
             <!-- Payment buttons -->
             <div class="mb-4">
               <div class="d-grid mb-4">
-                <button class="btn btn-warning btn-lg">
-                  <b>ASSINAR AGORA</b>
-                </button>
+                <a href="#products">
+                  <button class="btn btn-warning btn-lg w-100">
+                    <b>ASSINAR AGORA</b>
+                  </button>
+                </a>
               </div>
-              <div>R$ 489,90 à vista</div>
-              <h4>ou 12x de R$ 48,99 por mês</h4>
+              <div>Mentoria: R$ 200,00 à vista | Sala VIP: R$ 283,00</div>
+              <h4>ou 12x de R$ 28,30 por mês</h4>
             </div>
           </div>
 
@@ -188,34 +190,26 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6">
             <h3 class="mb-3">
               <i class="bi bi-bar-chart me-3"></i>
-              <span>Operações binárias</span>
+              <span>Mentoria Trader Consistente</span>
             </h3>
             <p>
-              Aprenda a obter altos lucros em prazos curtíssimos investindo em
-              opções binárias
+              Tenha acesso a um materia feito com muita dedicação, voltado para
+              todos que querem se tornar traders consistentes e independentes
+              financeiramente.
             </p>
           </div>
-          <div class="col-12 col-lg-4">
-            <h3 class="mb-3">
-              <i class="bi bi-currency-bitcoin me-3"></i>
-              <span>Criptomoedas</span>
-            </h3>
-            <p>
-              Faça investimentos em criptomoedas recomendadas com alto potencial
-              de lucro e retorno rápido
-            </p>
-          </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6">
             <h3 class="mb-3">
               <i class="bi bi-bank me-3"></i>
-              <span>NFTs</span>
+              <span>Sala VIP de Operações</span>
             </h3>
             <p>
-              Conheça sobre investimentos em NFTs e saiba porque eles estão cada
-              vez mais populares entre investimentos
+              Obtenha lucros no curto prazo investindo em opções binárias, com
+              uma sala VIP de operações e alta assertividade com um grupo que já
+              opera há 4 anos no mercado.
             </p>
           </div>
         </div>
@@ -515,26 +509,76 @@
               por um preço justo e acessível.
             </div>
 
-            <h4 class="text-danger mb-2">
+            <h4 id="products" class="text-danger mb-2">
               <b>OFERTA DE LANÇAMENTO</b>
             </h4>
 
             <h5 class="mb-4">Entre agora para a primeira turma</h5>
+          </div>
+        </div>
 
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
             <div class="d-grid mb-4">
-              <button class="btn btn-warning btn-lg">
-                <div>
-                  <b>ASSINAR AGORA por</b>
-                </div>
-                <div>
-                  <h1><b>12x de R$ 48,99</b></h1>
-                </div>
-                <div>
-                  <b>ou R$ 489,90 à vista</b>
-                </div>
-              </button>
-            </div>
+              <div class="youtube-embed mb-3">
+                <iframe
+                  width
+                  src="https://www.youtube.com/embed/gueibUq5dcc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
 
+              <a href="https://p.eduzz.com/1087492" target="_blank">
+                <button class="btn btn-primary btn-lg w-100">
+                  <div>Assine Agora</div>
+                  <div>
+                    <b>TRADER CONSISTENTE por</b>
+                  </div>
+                  <div>
+                    <h1><b>R$ 200,00 à vista</b></h1>
+                  </div>
+                  <div>
+                    <b>com Acesso Imediato</b>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="d-grid mb-4">
+              <div class="mb-3 youtube-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/ceZafXJ7ByY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <a href="https://sun.eduzz.com/1277241" target="_blank">
+                <button class="btn btn-warning btn-lg w-100">
+                  <div>Assine Agora</div>
+                  <div>
+                    <b>SALA VIP DE OPERAÇÕES por</b>
+                  </div>
+                  <div>
+                    <h1><b>12x de R$ 28,30</b></h1>
+                  </div>
+                  <div>
+                    <b>ou R$ 283,00 à vista</b>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
             <h4 class="text-danger mb-2">
               <i class="bi bi-check-circle me-3"></i>
               <b>Compra Segura</b>
@@ -553,7 +597,7 @@
     </div>
 
     <!-- Section 7 (Disclaimer) -->
-    <div class="section-6">
+    <div class="section-7">
       <div class="container p-5 text-center bg-dark text-white">
         <p>
           <small>
@@ -601,6 +645,10 @@ div.section-5 {
   background-image: linear-gradient(45deg, #ffffff, #ffc107);
 }
 
+div.section-7 {
+  font-size: 0.75rem;
+}
+
 img.profile-face {
   max-width: 10rem;
 }
@@ -624,5 +672,20 @@ em {
 
 em.red {
   color: red;
+}
+
+div.youtube-embed {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
