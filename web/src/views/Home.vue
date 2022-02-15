@@ -33,16 +33,18 @@
               </b>
             </p>
 
-            <!-- Payment buttons -->
-            <div class="mb-4">
-              <div class="d-grid mb-4">
-                <a href="#products">
+            <!-- Social buttons -->
+            <div class="row">
+              <div class="col-12 col-lg-4 mb-4">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5519993077616"
+                  target="_blank"
+                >
                   <button
                     class="
-                      btn btn-light
+                      btn btn-success
                       px-3
                       py-2
-                      text-dark
                       rounded-3
                       w-100
                       d-flex
@@ -50,12 +52,60 @@
                     "
                   >
                     <div>
-                      <b>
-                        OFERTA DE LANÇAMENTO - Entre agora para a primeira turma
-                      </b>
+                      <b>WhatsApp</b>
                     </div>
                     <div>
-                      <b>🔥</b>
+                      <i class="bi bi-whatsapp"></i>
+                    </div>
+                  </button>
+                </a>
+              </div>
+              <div class="col-12 col-lg-4 mb-4">
+                <a
+                  href="https://www.instagram.com/lucassalestrader"
+                  target="_blank"
+                >
+                  <button
+                    class="
+                      btn btn-primary
+                      px-3
+                      py-2
+                      rounded-3
+                      w-100
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div>
+                      <b>Instagram</b>
+                    </div>
+                    <div>
+                      <i class="bi bi-instagram"></i>
+                    </div>
+                  </button>
+                </a>
+              </div>
+              <div class="col-12 col-lg-4 mb-4">
+                <a
+                  href="https://www.youtube.com/channel/UC_xkXrNpxU_LzhGzRCQ2aIg"
+                  target="_blank"
+                >
+                  <button
+                    class="
+                      btn btn-danger
+                      px-3
+                      py-2
+                      rounded-3
+                      w-100
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div>
+                      <b>YouTube</b>
+                    </div>
+                    <div>
+                      <i class="bi bi-youtube"></i>
                     </div>
                   </button>
                 </a>
@@ -101,7 +151,20 @@
 
     <!-- Section 6 (Payment Banner) -->
     <div class="section-6">
-      <div class="container p-5 pb-0 text-center" id="products">
+      <div class="container p-5 pt-4 pb-0 text-center" id="products">
+        <div class="row justify-content-cente">
+          <h2>
+            <i class="bi bi-star-fill me-2 text-warning"></i>
+            <i class="bi bi-star-fill me-2 text-warning"></i>
+            <i class="bi bi-star-fill me-2 text-warning"></i>
+            <i class="bi bi-star-fill me-2 text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </h2>
+          <h4 id="products" class="text-danger mb-2">
+            <b>OFERTA DE LANÇAMENTO</b>
+          </h4>
+          <h5 class="mb-4">Entre agora para a primeira turma</h5>
+        </div>
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="d-grid mb-4">
