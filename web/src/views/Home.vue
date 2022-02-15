@@ -2,10 +2,10 @@
   <div>
     <!-- Section 1 (Header) -->
     <div class="section-1">
-      <div class="container p-5 text-light">
+      <div class="container p-5 pb-3 text-light">
         <div class="row">
           <!-- Left side -->
-          <div class="col-lg-7 text-center text-lg-start">
+          <div class="col-lg-8 text-center text-lg-start">
             <!-- Page Title -->
             <h4 class="mb-4">
               <i class="bi bi-bar-chart-steps me-3 brand-icon"></i>
@@ -37,13 +37,29 @@
             <div class="mb-4">
               <div class="d-grid mb-4">
                 <a href="#products">
-                  <button class="btn btn-warning btn-lg w-100">
-                    <b>ASSINAR AGORA</b>
+                  <button
+                    class="
+                      btn btn-light
+                      px-3
+                      py-2
+                      text-dark
+                      rounded-3
+                      w-100
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div>
+                      <b>
+                        OFERTA DE LANÇAMENTO - Entre agora para a primeira turma
+                      </b>
+                    </div>
+                    <div>
+                      <b>🔥</b>
+                    </div>
                   </button>
                 </a>
               </div>
-              <div>Mentoria: R$ 200,00 à vista | Sala VIP: R$ 283,00</div>
-              <h4>ou 12x de R$ 28,30 por mês</h4>
             </div>
           </div>
 
@@ -51,10 +67,10 @@
           <div class="col-1"></div>
 
           <!-- Right side -->
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div
               id="profileCarousel"
-              class="carousel slide rounded-3"
+              class="carousel rounded-3"
               data-bs-ride="carousel"
             >
               <div class="carousel-indicators">
@@ -64,39 +80,9 @@
                   data-bs-slide-to="0"
                   class="active"
                 ></button>
-                <button
-                  type="button"
-                  data-bs-target="#profileCarousel"
-                  data-bs-slide-to="1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#profileCarousel"
-                  data-bs-slide-to="2"
-                ></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                  <img
-                    src="../assets/profile/profile-1.jpeg"
-                    class="d-block w-100 rounded-3"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Lucas Sales</h5>
-                    <p>@lucassalestrader</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                  <img
-                    src="../assets/profile/profile-2.jpeg"
-                    class="d-block w-100 rounded-3"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Lucas Sales</h5>
-                    <p>@lucassalestrader</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item active">
                   <img
                     src="../assets/profile/profile-3.jpeg"
                     class="d-block w-100 rounded-3"
@@ -107,27 +93,76 @@
                   </div>
                 </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#profileCarousel"
-                data-bs-slide="prev"
-              >
-                <span class="carousel-control-prev-icon"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#profileCarousel"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6 (Payment Banner) -->
+    <div class="section-6">
+      <div class="container p-5 pb-0 text-center" id="products">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="d-grid mb-4">
+              <a href="https://p.eduzz.com/1087492" target="_blank">
+                <button class="btn btn-primary btn-lg w-100">
+                  <div>Assine Agora</div>
+                  <div>
+                    <b>TRADER CONSISTENTE por</b>
+                  </div>
+                  <div>
+                    <h1><b>12 x de R$ 16,67</b></h1>
+                  </div>
+                  <div>
+                    <b>ou R$ 200,00 à vista</b>
+                  </div>
+                  <div>
+                    <b>com Acesso Imediato</b>
+                  </div>
+                </button>
+              </a>
+              <div class="youtube-embed mt-3">
+                <iframe
+                  width
+                  src="https://www.youtube.com/embed/gueibUq5dcc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="d-grid mb-4">
+              <a href="https://sun.eduzz.com/1277241" target="_blank">
+                <button class="btn btn-warning btn-lg w-100">
+                  <div>Assine Agora</div>
+                  <div>
+                    <b>SALA VIP DE OPERAÇÕES por</b>
+                  </div>
+                  <div>
+                    <h1><b>12x de R$ 28,30</b></h1>
+                  </div>
+                  <div>
+                    <b>ou R$ 283,00 à vista</b>
+                  </div>
+                  <div>
+                    <b>com Acesso Imediato</b>
+                  </div>
+                </button>
+              </a>
+              <div class="youtube-embed mt-3">
+                <iframe
+                  src="https://www.youtube.com/embed/ceZafXJ7ByY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -502,82 +537,16 @@
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h2 class="mb-4">SEJA UM VISIONÁRIO!</h2>
-            <div class="mb-4">
+            <div class="mb-3">
               Chega de ficar perdendo tempo com cursos caros e que não agregam
               em nada. Somente aqui você terá acesso à conteúdo de qualidade e
               com garantia para que você se desenvolva na área de investimentos
               por um preço justo e acessível.
             </div>
-
-            <h4 id="products" class="text-danger mb-2">
-              <b>OFERTA DE LANÇAMENTO</b>
-            </h4>
-
-            <h5 class="mb-4">Entre agora para a primeira turma</h5>
           </div>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="d-grid mb-4">
-              <div class="youtube-embed mb-3">
-                <iframe
-                  width
-                  src="https://www.youtube.com/embed/gueibUq5dcc"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-
-              <a href="https://p.eduzz.com/1087492" target="_blank">
-                <button class="btn btn-primary btn-lg w-100">
-                  <div>Assine Agora</div>
-                  <div>
-                    <b>TRADER CONSISTENTE por</b>
-                  </div>
-                  <div>
-                    <h1><b>R$ 200,00 à vista</b></h1>
-                  </div>
-                  <div>
-                    <b>com Acesso Imediato</b>
-                  </div>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="d-grid mb-4">
-              <div class="mb-3 youtube-embed">
-                <iframe
-                  src="https://www.youtube.com/embed/ceZafXJ7ByY"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <a href="https://sun.eduzz.com/1277241" target="_blank">
-                <button class="btn btn-warning btn-lg w-100">
-                  <div>Assine Agora</div>
-                  <div>
-                    <b>SALA VIP DE OPERAÇÕES por</b>
-                  </div>
-                  <div>
-                    <h1><b>12x de R$ 28,30</b></h1>
-                  </div>
-                  <div>
-                    <b>ou R$ 283,00 à vista</b>
-                  </div>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
           <div class="col-lg-6">
             <h4 class="text-danger mb-2">
               <i class="bi bi-check-circle me-3"></i>
@@ -687,5 +656,10 @@ iframe {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 </style>
